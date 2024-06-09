@@ -1,0 +1,1 @@
+This is an eCommerce application built using Node.js and MongoDB for backend integration. The application supports robust authentication mechanisms, including JWT (JSON Web Token) and OAuth, to ensure secure user access and data protection.
