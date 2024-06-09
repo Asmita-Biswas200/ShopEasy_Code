@@ -27,7 +27,8 @@ app.get('/', (req, res) => {
 
 mongoose
   .connect(
-    process.env.MONGO_URL
+    // process.env.MONGO_URL
+    `mongodb+srv://asmitabiswas200:SewkbllFEC1DYQLy@crud-api.z9xeuyz.mongodb.net/crud-api`
   )
   .then(() => {
     console.log('Connected To Database');
